@@ -24,7 +24,7 @@ const Cardcontainer = ({ category,setCategory,searchValue,setSearchValue }) => {
     }, [])
  
     useEffect(()=>{
-        if(searchValue.length>2){
+        if(searchValue&&searchValue.length>2){
             let filteredItem = listItem.filter((ele,i)=> ele.title.toLowerCase().includes(searchValue.toLowerCase()))
             setListItems(()=>filteredItem)
             console.log(filteredItem)
@@ -49,7 +49,7 @@ const Cardcontainer = ({ category,setCategory,searchValue,setSearchValue }) => {
         <>
             <div className="card-container">
                 <div className="parent">
-                    {listItem.length>0 ? listItem.map((e, i) => <div className="div" key={i}><Card element={e} /></div>) : <h1>-:No Task Present:-</h1>}
+                    {listItem&&listItem.length>0 ? listItem.map((e, i) => <div className="div" key={i}><Card element={e} /></div>) : <h1>-:No Task Present:-</h1>}
                 </div>
             </div>
         </>
