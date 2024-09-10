@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+        font-family: "Space Grotesk", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    
+    
+}
+
+#addtask {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        height: 80%;
+        border-radius: 10px;
+        width: 200px;
+        border: none;
+        outline: none;
+        background-color: rgb(48, 48, 248);
+        color: white;
+        font-weight: bold;
+
+
+        span {
+            padding-left: 10px;
+        }
+    }
+
+    button:active {
+        box-shadow: 1px 1px 2px blue;
+    }
+}
+
+.dark {
+    background-color: rgb(32, 31, 31);
+    color: white;
+}
+
+.light {
+    background-color: aliceblue;
+    color: black;
+}
+
+.wrapper {
+    width: 100vw;
+    min-height: 100vh;
+}

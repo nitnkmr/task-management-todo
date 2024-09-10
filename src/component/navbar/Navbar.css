@@ -1,0 +1,13 @@
+.nav{
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    border-bottom: 1px solid gray;
+    justify-content: space-around;
+    align-items: center;
+
+    .title{
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}

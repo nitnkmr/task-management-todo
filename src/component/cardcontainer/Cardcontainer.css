@@ -1,0 +1,38 @@
+.card-container{
+    width: 90vw;
+    /* height: 50vh; */
+    /* border: 1px solid gray; */
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.div{
+    border: 1px solid gray;
+    height:300px;
+    min-width: 200px;
+    width: 250px;
+    box-shadow: 0 2px 2px gray;
+    border-radius: 10px;
+
+}
+
+
+.parent {
+    border-radius: 10px;
+
+    display: flex;
+    /* height: 100%; */
+    width: fit-content;
+    padding: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+  
