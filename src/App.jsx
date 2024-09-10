@@ -3,7 +3,7 @@ import './App.css'
 import Form from './component/form/Form'
 import Filter from './component/filter/Filter'
 import Cardcontainer from './component/cardcontainer/Cardcontainer'
-import Navbar from './component/navbar/navbar'
+import Navbar from './component/navbar/Navbar'
 import { MyContext } from './Context/Context'
 
 
